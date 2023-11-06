@@ -9,6 +9,7 @@ from database import config_database
 
 from app.api.products import router as product_router
 
+
 config_database()
 
 app = FastAPI()
